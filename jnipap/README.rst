@@ -10,3 +10,7 @@ are shipped with the NIPAP repository, so as long as you have gradle in your
 path you should be able to build the JNIPAP .jar with:
 
 ``make jar``
+
+To run tests, do:
+
+``make test``
