@@ -1,11 +1,11 @@
 default: jar
 
 jar:
-	gradle jar
+	./gradlew jar
 	cp build/libs/jnipap.jar .
 
 test:
-	gradle test
+	./gradlew test
 
 clean:
-	gradle clean
+	./gradlew clean
